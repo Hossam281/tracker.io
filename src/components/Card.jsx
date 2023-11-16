@@ -10,7 +10,7 @@ const Card = ({
   setRecord,
   setDescription,
 }) => {
-  const cardColor = data?.type === "income" ? "green" : "red";
+  const cardColor = data?.type === "income" ? "bg-green-200" : "bg-red-200";
 
   const getRecord = () => {
     setDescription(true);
@@ -21,7 +21,7 @@ const Card = ({
   return (
     <div
       onClick={getRecord}
-      className={`p-4 m-2 h-24 shadow-lg cursor-pointer hover:scale-110 transition-all duration-300}  rounded-lg w-[90%] md:w-[60%]  bg-${cardColor}-200`}
+      className={`p-4 m-2 h-24 shadow-lg cursor-pointer hover:scale-110 transition-all duration-300}  rounded-lg w-[90%] md:w-[60%]  ${cardColor}`}
     >
       <div className="flex h-full justify-between items-center    ">
         <p className="text-xs md:text-lg font-bold     overflow-hidden text-ellipsis   ">

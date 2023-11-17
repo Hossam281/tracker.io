@@ -13,7 +13,7 @@
 - **Local Storage:** All your financial data is  stored locally in your browser's storage, ensuring privacy and easy access whenever you need it.
 
 # Demo
-You can try out Weatherify by visiting the live demo: https://tracker-io.vercel.app/
+You can try out Tracker.io by visiting the live demo: https://tracker-io.vercel.app/
 
 # Technologies
 Weatherify is built using the following technologies and APIs:

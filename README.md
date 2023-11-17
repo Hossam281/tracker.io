@@ -16,7 +16,7 @@
 You can try out Tracker.io by visiting the live demo: https://tracker-io.vercel.app/
 
 # Technologies
-Weatherify is built using the following technologies and APIs:
+Tracker.io is built using the following technologies:
 
 - **ReactJs**
 - **Tailwind css**
